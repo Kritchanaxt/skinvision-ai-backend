@@ -1,0 +1,39 @@
+# FastAPI and server dependencies
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+
+# Computer Vision and AI/ML
+opencv-python>=4.8.0
+mediapipe>=0.10.0
+Pillow>=10.0.0
+numpy>=1.24.0
+scikit-image>=0.21.0
+
+# Deep Learning (for future model integration)
+torch>=2.0.0
+torchvision>=0.15.0
+# tensorflow>=2.13.0  # Uncomment if using TensorFlow instead
+
+# Data handling
+pandas>=2.0.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# HTTP and async support
+httpx>=0.25.0
+aiofiles>=23.0.0
+
+# Environment and configuration
+python-dotenv>=1.0.0
+
+# Database (optional for future use)
+# sqlalchemy>=2.0.0
+# alembic>=1.12.0
+
+# System monitoring
+psutil>=5.9.0
+
+# Development and testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
